@@ -1,6 +1,9 @@
+import { SenderProviderType } from "common";
+
 
 export class Sender {
-    public static send(message: string) {
-        return message
+    public static send(providerType: SenderProviderType, options, body) {
+        
+        return body;
     }
 }
