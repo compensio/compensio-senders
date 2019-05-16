@@ -1,4 +1,4 @@
-import { IEvent } from "common";
+import { IEvent } from "compensio-common";
 
 
 export interface IEventSender {

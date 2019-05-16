@@ -1,4 +1,4 @@
-import { SenderProviderType } from "common";
+import { SenderProviderType } from "compensio-common";
 
 
 export class Sender {

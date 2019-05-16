@@ -1,4 +1,4 @@
-import { SenderProviderType } from "common";
+import { SenderProviderType } from "compensio-common";
 import { IEventSender } from "../contracts/eventSender";
 
 export class SenderFactory {
