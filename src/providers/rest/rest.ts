@@ -3,15 +3,11 @@ import { IEvent, RestOptions } from "compensio-common";
 import { IEventSender } from "../../contracts/eventSender";
 
 
-export class RestService implements IEventSender{
-    private options: RestOptions;
-
-    constructor(options: RestOptions) {
-        this.options = options;
-    }
+export class RestSender implements IEventSender{
 
     public send = async (options: RestOptions, event: IEvent) => {
         const data = await axios.post(options.url, event);
+        return data;
     };
 
 }
